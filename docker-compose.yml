@@ -1,7 +1,7 @@
 services:
   mm-btc:
     build: .
-    command: ["ETH"]
+    command: ["BTC"]
     restart: unless-stopped
     env_file:
       - .env
